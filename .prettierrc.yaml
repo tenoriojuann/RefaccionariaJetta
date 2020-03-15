@@ -1,0 +1,9 @@
+# .prettierrc.yaml or .prettierrc.yaml
+tabWidth: 4
+singleQuote: true
+array-bracket-spacing: ['error', 'never']
+printWidth: 240
+useTabs: false
+semlint: true
+bracketSpacing: true
+semi: true

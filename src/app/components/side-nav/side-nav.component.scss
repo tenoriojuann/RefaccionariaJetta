@@ -1,0 +1,29 @@
+.select-colors {
+  text-decoration: none;
+  color: black;
+}
+
+.select-colors:hover {
+  color: white;
+  background-color: forestgreen;
+}
+
+.nav-caption {
+  display: inline-block;
+  padding-left: 6px;
+}
+
+.side-bar {
+  background-color: lightgrey;
+}
+
+.example-tree-invisible {
+  display: none;
+}
+
+.example-tree ul,
+.example-tree li {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}

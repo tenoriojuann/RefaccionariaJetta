@@ -1,0 +1,32 @@
+{
+    "extends": ["airbnb", "prettier"],
+    "plugins": ["angular", "prettier", "jasmine", "@typescript-eslint"],
+    "parser": "@typescript-eslint/parser",
+    "env": {
+        "jasmine": true
+    },
+    "rules": {
+        "prettier/prettier": ["error"],
+        "no-unused-vars": "error",
+        "@typescript-eslint/no-unused-vars": "error",
+        "no-useless-constructor": "off",
+        "@typescript-eslint/no-useless-constructor": "off",
+        "no-empty-function": "off",
+        "import/no-unresolved": 0,
+        "indent": ["error", 4],
+        "linebreak-style": ["off"],
+        "comma-dangle": ["off"],
+        "no-console": ["off"],
+        "no-trailing-spaces": "off",
+        "max-len": ["error", 240],
+        "import/prefer-default-export": "off",
+        "padded-blocks": "off",
+        "lines-between-class-members": "off",
+        "arrow-body-style": ["error", "always"],
+        "class-methods-use-this": "off",
+        "no-underscore-dangle": "off"
+    },
+    "globals": {
+        "window": true
+    }
+}
